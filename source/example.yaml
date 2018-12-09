@@ -1,0 +1,697 @@
+name: Soothsayer Theme
+type: Dark
+author: Heron Silva
+
+theme-colors:
+  base:
+    - &bg "#252C33"
+    - &fg "#FFFFFF"
+  general:
+    - &black_pearl2       "#111A1B"
+    - &black_pearl        "#172324"
+    - &oxford_blue        "#273A3B"
+    - &nero               "#2C2C2C"
+    - &charcoal           "#3F3F3F"
+    - &pale_sky           "#60686C"
+    - &dark_grey          "#95958B"
+    - &grey               "#DCDCCC"
+    - &white              "#FFFFFF"
+
+    - &sherpa_blue        "#002642"
+    - &sky_blue           "#94BFF3"
+    - &regent_st_blue     "#9AB8D7"
+    - &bermuda_grey       "#758DA1"
+    - &half_baked         "#548687"
+    - &cadet_blue         "#6B9FA1"
+    - &bermuda            "#8CD0D3"
+    - &charlotte          "#93E0E3"
+    - &gumbo              "#709080"
+    - &ocean_green        "#57A37C"
+    - &keppel             "#60B48A"
+    - &medium_aquamarine  "#72D5A3"
+    - &mountain_meadow    "#15B382"
+
+    - &tyrian_purple      "#11000B"
+    - &tyrian_purple2     "#28001A"
+    - &burgundy           "#840032"
+    - &burgundy2          "#89023E"
+    - &claret             "#742035"
+    - &wild_watermelon    "#FF4573"
+    - &bittersweet        "#FF686B"
+    - &kobi               "#DC8CC3"
+    - &shocking           "#EC93D3"
+    - &pale_chestnut      "#DCA3A3"
+    - &mongoose           "#AA856F"
+    - &pancho             "#DFAF8F"
+    - &rajah              "#FCAA67"
+    - &tangerine          "#E59500"
+    - &pale_goldenrod     "#F0DFAF"
+    - &lemon_chiffon      "#FFFFC7"
+
+    # specific colors
+    - &sideBar_header_bg  "#758DA133"
+    - &selection          "#758DA155"
+    - &comment            "#758DA1AA"
+    - &namespace_using    "#6B9FA1AA"
+    - &activityBar_border "#FFFFC7BB"
+    - &sideBar_border     "#FFFFC755"
+
+colors:
+  # Base Colors
+  focusBorder: *ocean_green
+  foreground: *lemon_chiffon
+  widget.shadow: *tyrian_purple
+  selection.background: *selection
+  descriptionForeground: *fg
+  errorForeground: *wild_watermelon
+
+  # Contrast Colors
+  contrastActiveBorder:
+  contrastBorder:
+
+  # Text Colors
+  textBlockQuote.background: *tyrian_purple
+  textBlockQuote.border: *charcoal
+  textCodeBlock.background: *charcoal
+  textLink.activeForeground: *rajah
+  textLink.foreground: *pancho
+  textPreformat.foreground: *white
+  textSeparator.foreground: *lemon_chiffon
+
+  # Button Control
+  button.background: *sherpa_blue
+  button.foreground: *lemon_chiffon
+  button.hoverBackground: *half_baked
+
+  # Dropdown Control
+  dropdown.background: *bg
+  dropdown.border: *charcoal
+  dropdown.foreground: *lemon_chiffon
+
+  # Input Control
+  input.background: *bg
+  input.border: *charcoal
+  input.foreground: *pale_goldenrod
+  input.placeholderForeground: *mongoose
+  inputOption.activeBorder: *tangerine
+  inputValidation.errorBackground: *claret
+  inputValidation.errorBorder: *wild_watermelon
+  inputValidation.infoBackground: *bg
+  inputValidation.infoBorder: *sky_blue
+  inputValidation.warningBackground: *bg
+  inputValidation.warningBorder: *tangerine
+
+  # Scroll Bar Control
+  scrollbar.shadow: *sherpa_blue
+  scrollbarSlider.activeBackground: *selection
+  scrollbarSlider.background: *selection
+  scrollbarSlider.hoverBackground: *comment
+
+  # Badge
+  badge.foreground: *lemon_chiffon
+  badge.background: *wild_watermelon
+
+  # Progress Bar
+  progressBar.background: *rajah
+
+  # Lists and Trees
+  list.activeSelectionBackground: *selection
+  list.activeSelectionForeground: *lemon_chiffon
+  list.dropBackground: *selection
+  list.focusBackground: *selection
+  list.focusForeground: *lemon_chiffon
+  list.highlightForeground: *rajah
+  list.hoverBackground: *selection
+  list.hoverForeground: *rajah
+  list.inactiveSelectionBackground: *selection
+  list.inactiveSelectionForeground: *lemon_chiffon
+  list.inactiveFocusBackground: *selection
+  list.inactiveFocusForeground: *pale_goldenrod
+  list.invalidItemForeground: *wild_watermelon
+
+  # Activity Bar
+  activityBar.background: *black_pearl2
+  activityBar.dropBackground: *bg
+  activityBar.foreground: *fg
+  activityBar.border: *charcoal
+  activityBarBadge.background: *wild_watermelon
+  activityBarBadge.foreground: *lemon_chiffon
+
+  # Side Bar
+  sideBar.background: *black_pearl
+  sideBar.foreground: *lemon_chiffon
+  sideBar.border: *charcoal
+  sideBar.dropBackground: *sherpa_blue
+  sideBarTitle.foreground: *white
+  sideBarSectionHeader.background: *sideBar_header_bg
+  sideBarSectionHeader.foreground: *lemon_chiffon
+
+  # Editor Groups & Tabs
+  editorGroup.background: *black_pearl
+  editorGroup.border: *charcoal
+  editorGroup.dropBackground: *nero
+  editorGroupHeader.noTabsBackground:
+  editorGroupHeader.tabsBackground: *tyrian_purple
+  editorGroupHeader.tabsBorder:
+  tab.activeBackground: *bg
+  tab.activeForeground: *lemon_chiffon
+  tab.border:
+  tab.activeBorder: *rajah
+  tab.unfocusedActiveBorder:
+  tab.inactiveBackground: *black_pearl
+  tab.inactiveForeground: *dark_grey
+  tab.unfocusedActiveForeground:
+  tab.unfocusedInactiveForeground:
+
+  # Editor Colors
+  editor.background: *bg
+  editor.foreground: *fg
+  editorLineNumber.foreground: *gumbo
+  editorCursor.background: *pancho
+  editorCursor.foreground: *pale_goldenrod
+  editor.selectionBackground: *selection
+  editor.selectionForeground: *fg
+  editor.selectionHighlightBackground:
+  editor.inactiveSelectionBackground:
+  editor.wordHighlightBackground:
+  editor.wordHighlightStrongBackground:
+  editor.findMatchBackground:
+  editor.findMatchHighlightBackground:
+  editor.findRangeHighlightBackground:
+  editor.hoverHighlightBackground: *comment
+  editor.lineHighlightBackground: *selection
+  editor.lineHighlightBorder: *pale_sky
+  editorLink.activeForeground:
+  editor.rangeHighlightBackground:
+  editorWhitespace.foreground:
+  editorIndentGuide.background:
+  editorRuler.foreground:
+  editorCodeLens.foreground:
+  editorBracketMatch.background: *sherpa_blue
+  editorBracketMatch.border: *charcoal
+
+  # Overview ruler:
+  editorOverviewRuler.border:
+  editorOverviewRuler.findMatchForeground:
+  editorOverviewRuler.rangeHighlightForeground:
+  editorOverviewRuler.selectionHighlightForeground:
+  editorOverviewRuler.wordHighlightForeground:
+  editorOverviewRuler.wordHighlightStrongForeground:
+  editorOverviewRuler.modifiedForeground:
+  editorOverviewRuler.addedForeground:
+  editorOverviewRuler.deletedForeground:
+  editorOverviewRuler.errorForeground:
+  editorOverviewRuler.warningForeground:
+  editorOverviewRuler.infoForeground:
+
+  # Errors and warnings:
+  editorError.foreground:
+  editorError.border:
+  editorWarning.foreground:
+  editorWarning.border:
+  editorInfo.foreground:
+  editorInfo.border:
+
+  # The gutter contains the glyph margins and the line numbers:
+  editorGutter.background:
+  editorGutter.modifiedBackground:
+  editorGutter.addedBackground:
+  editorGutter.deletedBackground:
+
+  # Diff Editor Colors
+  diffEditor.insertedTextBackground:
+  diffEditor.insertedTextBorder:
+  diffEditor.removedTextBackground:
+  diffEditor.removedTextBorder:
+
+  # Editor Widget Colors
+  editorWidget.background:
+  editorWidget.border: *charcoal
+  editorSuggestWidget.background:
+  editorSuggestWidget.border: *charcoal
+  editorSuggestWidget.foreground:
+  editorSuggestWidget.highlightForeground:
+  editorSuggestWidget.selectedBackground:
+  editorHoverWidget.background:
+  editorHoverWidget.border: *charcoal
+
+  # The Debug Exception widget is a peek view that shows in the editor when debug stops at an exception.
+  debugExceptionWidget.background:
+  debugExceptionWidget.border:
+
+  # The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
+  editorMarkerNavigation.background:
+  editorMarkerNavigationError.background:
+  editorMarkerNavigationWarning.background:
+  editorMarkerNavigationInfo.background:
+
+  # Peek View Colors
+  peekView.border: *charcoal
+  peekViewEditor.background: *black_pearl
+  peekViewEditorGutter.background: *black_pearl2
+  peekViewEditor.matchHighlightBackground: *burgundy2
+  peekViewResult.background: *tyrian_purple
+  peekViewResult.fileForeground: *lemon_chiffon
+  peekViewResult.lineForeground: *pale_goldenrod
+  peekViewResult.matchHighlightBackground: *burgundy2
+  peekViewResult.selectionBackground: *selection
+  peekViewResult.selectionForeground: *lemon_chiffon
+  peekViewTitle.background: *black_pearl2
+  peekViewTitleDescription.foreground: *rajah
+  peekViewTitleLabel.foreground: *lemon_chiffon
+
+  # Merge Conflicts
+  merge.currentHeaderBackground:
+  merge.currentContentBackground:
+  merge.incomingHeaderBackground:
+  merge.incomingContentBackground:
+  merge.border: *charcoal
+  merge.commonContentBackground:
+  merge.commonHeaderBackground:
+  editorOverviewRuler.currentContentForeground:
+  editorOverviewRuler.incomingContentForeground:
+  editorOverviewRuler.commonContentForeground:
+
+  # Panel Colors
+  panel.background: *bg
+  panel.border: *charcoal
+  panel.dropBackground: *bg
+  panelTitle.activeBorder: *rajah
+  panelTitle.activeForeground: *lemon_chiffon
+  panelTitle.inactiveForeground: *grey
+
+  # Status Bar Colors
+  statusBar.background: *tyrian_purple2
+  statusBar.foreground: *lemon_chiffon
+  statusBar.border: *charcoal
+  statusBar.debuggingBackground: *wild_watermelon
+  statusBar.debuggingForeground: *white
+  statusBar.debuggingBorder: *lemon_chiffon
+  statusBar.noFolderBackground: *tyrian_purple2
+  statusBar.noFolderForeground: *lemon_chiffon
+  statusBar.noFolderBorder: *lemon_chiffon
+  statusBarItem.activeBackground: *gumbo
+  statusBarItem.hoverBackground: *sherpa_blue
+  statusBarItem.prominentBackground: *pancho
+  statusBarItem.prominentHoverBackground: *lemon_chiffon
+
+  # Title Bar Colors (macOS)
+  titleBar.activeBackground:
+  titleBar.activeForeground:
+  titleBar.inactiveBackground:
+  titleBar.inactiveForeground:
+  titleBar.border:
+
+  # Notification Dialog Colors
+  notification.background: *tyrian_purple
+  notification.foreground: *lemon_chiffon
+  notification.buttonBackground: *sherpa_blue
+  notification.buttonForeground: *lemon_chiffon
+  notification.buttonHoverBackground: *half_baked
+  notification.errorBackground: *wild_watermelon
+  notification.errorForeground: *lemon_chiffon
+  notification.infoBackground: *bermuda_grey
+  notification.infoForeground: *lemon_chiffon
+  notification.warningBackground: *tangerine
+  notification.warningForeground: *lemon_chiffon
+
+  # Extensions
+  extensionButton.prominentForeground:
+  extensionButton.prominentBackground:
+  extensionButton.prominentHoverBackground:
+
+  # Quick Picker
+  pickerGroup.border:
+  pickerGroup.foreground:
+
+  # Integrated Terminal Colors
+  terminal.background: *bg
+  terminal.foreground: *lemon_chiffon
+  terminal.ansiBlack: *charcoal
+  terminal.ansiBlue: *sky_blue
+  terminal.ansiBrightBlack: *cadet_blue
+  terminal.ansiBrightBlue: *sky_blue
+  terminal.ansiBrightCyan: *charlotte
+  terminal.ansiBrightGreen: *medium_aquamarine
+  terminal.ansiBrightMagenta: *shocking
+  terminal.ansiBrightRed: *wild_watermelon
+  terminal.ansiBrightWhite: *fg
+  terminal.ansiBrightYellow: *pale_goldenrod
+  terminal.ansiCyan: *bermuda
+  terminal.ansiGreen: *ocean_green
+  terminal.ansiMagenta: *shocking
+  terminal.ansiRed: *pale_chestnut
+  terminal.ansiWhite: *fg
+  terminal.ansiYellow: *pale_goldenrod
+  terminal.selectionBackground: *selection
+  terminalCursor.background: *regent_st_blue
+  terminalCursor.foreground: *lemon_chiffon
+
+  # Debug
+  debugToolBar.background: *oxford_blue
+
+  # Welcome Page
+  welcomePage.buttonBackground:
+  welcomePage.buttonHoverBackground:
+  walkThrough.embeddedEditorBackground: *bg
+
+  # Git Colors
+  gitDecoration.modifiedResourceForeground:
+  gitDecoration.deletedResourceForeground:
+  gitDecoration.untrackedResourceForeground:
+  gitDecoration.ignoredResourceForeground:
+  gitDecoration.conflictingResourceForeground:
+
+tokenColors:
+  - settings:
+      background: *bg
+      foreground: *fg
+
+  - name: Comment
+    scope:
+    - comment
+    - punctuation.definition.comment
+    settings:
+      foreground: *comment
+
+  - name: String
+    scope:
+    - string
+    settings:
+      foreground: *pale_goldenrod
+
+  - name: Template Definition
+    scope:
+    - punctuation.section.embedded
+    settings:
+      foreground: *pale_goldenrod
+
+  - name:
+    scope:
+    - punctuation.definition.template-expression
+    settings:
+      foreground: *rajah
+
+  - name: Reset JavaScript string interpolation expression
+    scope:
+    - meta.template.expression
+    settings:
+      foreground: *fg
+
+  - name: Number
+    scope:
+    - constant.numeric
+    settings:
+      foreground: *sky_blue
+
+  - name: Built-in constant
+    scope:
+    - constant.language
+    settings:
+      foreground: *pancho
+
+  - name: User-defined constant
+    scope:
+    - constant.character
+    - constant.other
+    settings:
+      foreground: *kobi
+
+  - name: Variable
+    scope:
+    - variable
+    settings:
+      foreground: *white
+
+  - name: Keyword
+    scope:
+    - keyword
+    settings:
+      foreground: *keppel
+
+  - name: Flow keyword
+    scope:
+    - keyword.control.flow
+    settings:
+      foreground: *wild_watermelon
+
+  - name: Assignment
+    scope:
+    - keyword.operator.assignment
+    settings:
+      foreground: *pale_goldenrod
+
+  - name: Arithmetic operators
+    scope:
+    - keyword.operator.arithmetic
+    settings:
+      foreground: *rajah
+
+  - name: Storage
+    scope:
+    - storage
+    settings:
+      foreground: *shocking
+
+  - name: Storage type
+    scope:
+    - storage.type
+    settings:
+      foreground: *lemon_chiffon
+      fontStyle: italic
+
+  - name: Class name
+    scope:
+    - entity.name.type
+    - entity.name.class
+    settings:
+      foreground: *pancho
+
+  - name: Inherited class
+    scope:
+    - entity.other.inherited-class
+    settings:
+      fontStyle: underline
+      foreground: *pale_chestnut
+
+  - name: Function name
+    scope:
+    - entity.name.function
+    settings:
+      foreground: *medium_aquamarine
+
+  - name: Function argument
+    scope:
+    - variable.parameter
+    settings:
+      foreground: *pale_goldenrod
+
+  - name: Library function
+    scope:
+    - support.function
+    settings:
+      foreground: *shocking
+
+  - name: Library constant
+    scope:
+    - support.constant
+    settings:
+      foreground: *regent_st_blue
+
+  - name: Library class/type
+    scope:
+    - support.type
+    - support.class
+    settings:
+      foreground: *bermuda
+
+  - name: Library variable
+    scope:
+    - support.other.variable
+    settings:
+      foreground:
+
+  - name: Invalid
+    scope:
+    - invalid
+    settings:
+      background: *shocking
+      foreground: *fg
+
+  - name: Invalid deprecated
+    scope:
+    - invalid.deprecated
+    settings:
+      background: *pale_chestnut
+      foreground: *grey
+
+  - scope:
+    - meta.brace.round
+    - meta.brace.square
+    - punctuation.definition.block
+    settings:
+      foreground: "#A7A6C566"
+
+  # .html
+  - name: Doctype
+    scope:
+    - meta.tag.sgml.doctype.html
+    settings:
+      fontStyle: italic
+      foreground: *comment
+
+  - name: Tag name
+    scope:
+    - entity.name.tag
+    settings:
+      foreground: *charlotte
+
+  - name: Tag attribute
+    scope:
+    - entity.other.attribute-name
+    settings:
+      foreground: *pancho
+
+  - scope:
+    - punctuation.definition.tag.html
+    - punctuation.definition.tag.begin
+    - punctuation.definition.tag.end
+    - punctuation.definition.tag.xml
+    settings:
+      foreground: *cadet_blue
+
+  # .js
+  - name: False
+    scope:
+    - constant.language.boolean.false
+    settings:
+      foreground: *bittersweet
+
+  - name: True
+    scope:
+    - constant.language.boolean.true
+    settings:
+      foreground: *medium_aquamarine
+
+  - name: Null
+    scope:
+    - constant.language.null
+    settings:
+      foreground: *dark_grey
+
+  - name: Undefined
+    scope:
+    - constant.language.undefined
+    settings:
+      foreground: *mongoose
+
+  - scope:
+    - punctuation.definition.parameters
+    settings:
+      foreground: *pancho
+
+  - scope:
+    - variable.parameter
+    - meta.parameter
+    settings:
+      fontStyle: italic
+
+  # .json
+  - name: JSON String
+    scope:
+    - string.quoted.double.json
+    - constant.numeric.json
+    settings:
+      foreground: *pale_goldenrod
+
+  - scope:
+    - punctuation.separator.dictionary.key-value.json
+    - meta.structure.dictionary.json
+    settings:
+      foreground: *pale_chestnut
+
+  - scope:
+    - punctuation.separator.dictionary.pair.json
+    settings:
+      foreground: *white
+
+  # dotnet
+  - scope:
+    - punctuation.curlybrace.open.cs
+    - punctuation.curlybrace.close.cs
+    - punctuation.parenthesis.open.cs
+    - punctuation.parenthesis.close.cs
+    - punctuation.squarebracket.open.cs
+    - punctuation.squarebracket.close.cs
+    - punctuation.terminator.statement.cs
+    - punctuation.separator.colon.cs
+    - punctuation.accessor.cs
+    - regions.using.directive.cs
+    - punctuation.definition.typeparameters.begin.cs
+    - punctuation.definition.typeparameters.end.cs
+    settings:
+      foreground: *dark_grey
+
+  - scope:
+    - keyword.other.using.cs
+    - keyword.other.namespace.cs
+    settings:
+      foreground: *namespace_using
+
+  - scope:
+    - entity.name.type.namespace.cs
+    settings:
+      foreground: *mongoose
+
+  - scope:
+    - storage.modifier.cs
+    settings:
+      foreground: *pale_chestnut
+
+  - scope:
+    - entity.name.function.cs
+    settings:
+      foreground: *charlotte
+
+  - scope:
+    - keyword.control.flow.return.cs
+    settings:
+      foreground: *medium_aquamarine
+
+  # docker
+  - scope:
+    - source.dockerfile
+    settings:
+      foreground: *pale_goldenrod
+
+  - scope:
+    - keyword.other.special-method.dockerfile
+    settings:
+      foreground: *bermuda
+
+  # .ini
+  - scope:
+    - source.ini
+    settings:
+      foreground: *pale_goldenrod
+
+  - scope:
+    - keyword.other.definition.ini
+    settings:
+      foreground: *bermuda
+
+  - scope:
+    - punctuation.definition.entity.ini
+    settings:
+      foreground: *mongoose
+
+  - scope:
+    - entity.name.section.group-title.ini
+    settings:
+      foreground: *pancho
+
+  - scope:
+    - punctuation.separator.key-value.mapping
+    - punctuation.definition.block.sequence.item.yaml
+    settings:
+      foreground: *pale_chestnut

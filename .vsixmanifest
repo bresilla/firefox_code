@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="firefox-devtools-theme" Version="3.3.2" Publisher="Heron"/>
+    <Identity Language="en-US" Id="DarkCode" Version="0.0.2" Publisher="Bresilla"/>
     <DisplayName>Firefox Theme</DisplayName>
     <Description xml:space="preserve">A syntax theme based on Mozilla Firefox&#39; developer tools</Description>
     <Tags>theme,color-theme</Tags>
     <Categories>Themes</Categories>
     <GalleryFlags>Public</GalleryFlags>
-    <Badges><Badge Link="https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme" ImgUri="https://vsmarketplacebadge.apphb.com/version/Heron.firefox-devtools-theme.svg?label=Release&amp;style=flat-square&amp;colorA=434346&amp;colorB=B98EFF" Description="Current version" /><Badge Link="https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme" ImgUri="https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg?label=Installs&amp;style=flat-square&amp;colorA=434346&amp;colorB=B98EFF" Description="Installs" /><Badge Link="https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme#review-details" ImgUri="https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg?label=Rating&amp;style=flat-square&amp;colorA=434346&amp;colorB=B98EFF" Description="Rating" /></Badges>
     <Properties>
       <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.10.0" />
       <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />

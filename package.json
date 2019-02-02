@@ -1,16 +1,16 @@
 {
-	"name": "firefox-devtools-theme",
-	"displayName": "Firefox Theme",
+	"name": "DarkCode",
+	"displayName": "DarkCode",
 	"description": "A syntax theme based on Mozilla Firefox' developer tools",
-	"version": "3.3.2",
-	"publisher": "Heron",
+	"version": "0.0.2",
+	"publisher": "Bresilla",
 	"author": {
-		"name": "Heron Silva",
-		"email": "heron.code@outlook.com"
+		"name": "Trim Bresilla",
+		"email": "trim.bresilla@hotmail.com"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/firefox-theme/visual-studio-code"
+		"url": "https://github.com/bresilla/firefox_code"
 	},
 	"icon": "images/icon.png",
 	"badges": [
@@ -39,25 +39,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Firefox Light",
-				"uiTheme": "vs",
-				"path": "./themes/Light.json"
-			},
-			{
-				"label": "Firefox Dark",
+				"label": "DarkCode",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Dark.json"
-			},
-			{
-				"label": "Firefox Dark (Previous)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/DarkPrevious.json"
 			}
 		]
 	},
-	"__metadata": {
-		"id": "e2fefca0-b32c-431f-bb7d-8adf78b5af20",
-		"publisherId": "c4734ea2-6dbb-4064-a16e-bea982f34dbe",
-		"publisherDisplayName": "Heron Silva"
+	"dependencies": {
+		"js-yaml": "^3.12.1",
+		"jsonminify": "^0.4.1"
 	}
 }
